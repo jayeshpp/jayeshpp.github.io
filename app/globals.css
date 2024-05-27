@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --max-c-w: 1440px;
+  --primary-1: #0096eb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+  color: black;
+  .logo {
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+    span {
+      color: var(--primary-1);
+    }
+  }
+  .title-1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+  .title-2 {
+    color: var(--primary-1);
+    font-size: 2rem;
+    line-height: 2.25rem;
+    display: flex;
+    align-items: center;
+    &::before {
+      display: block;
+      content: "";
+      height: 2px;
+      width: 90px;
+      background-color: black;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .container {
+    max-width: 1440px;
+  }
+}
