@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Libre_Caslon_Text } from "next/font/google";
 import "./globals.css";
 import { Header } from "./Header";
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={lct.className}>
         <Header />
         {children}
+        <GoogleAnalytics gaId="G-XMVE0G42H3" />
       </body>
     </html>
   );

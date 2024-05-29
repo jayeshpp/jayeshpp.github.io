@@ -13,3 +13,13 @@ pnpm dev
 # or
 bun dev
 ```
+
+
+TODO
+[] Skill page
+[] Experience page
+[] Blog
+[] Contact
+[] Dark mode
+[] GA
+[] Interactive experience
