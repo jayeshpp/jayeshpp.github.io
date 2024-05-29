@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={lct.className}>
         <Header />
         {children}
-        <GoogleAnalytics gaId="G-XMVE0G42H3" />
+        <GoogleAnalytics gaId="G-3YXZDY1RFH" />
       </body>
     </html>
   );

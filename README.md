@@ -23,3 +23,5 @@ TODO
 [] Dark mode
 [] GA
 [] Interactive experience
+[] Responsive
+[] Support theming
