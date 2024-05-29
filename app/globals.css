@@ -15,28 +15,45 @@
 body {
   color: black;
   .logo {
-    font-size: 2.5rem;
-    line-height: 2.875rem;
+    font-size: 1.75rem;
+    line-height: 2.8rem;
     span {
       color: var(--primary-1);
     }
   }
   .title-1 {
-    font-size: 6rem;
-    line-height: 7rem;
+    font-size: 3rem;
+    line-height: 4.8rem;
   }
   .title-2 {
     color: var(--primary-1);
-    font-size: 2rem;
-    line-height: 2.25rem;
+    font-size: 1.25rem;
+    line-height: 2rem;
     display: flex;
     align-items: center;
     &::before {
       display: block;
       content: "";
       height: 2px;
-      width: 90px;
+      width: 50px;
       background-color: black;
+    }
+  }
+  @media (min-width: 768px) {
+    .logo {
+      font-size: 2.5rem;
+      line-height: 2.875rem;
+    }
+    .title-1 {
+      font-size: 6rem;
+      line-height: 7rem;
+    }
+    .title-2 {
+      font-size: 2rem;
+      line-height: 2.25rem;
+      &::before {
+        width: 90px;
+      }
     }
   }
 }
@@ -46,6 +63,6 @@ body {
     text-wrap: balance;
   }
   .container {
-    max-width: 1180px;
+    max-width: 1340px;
   }
 }
