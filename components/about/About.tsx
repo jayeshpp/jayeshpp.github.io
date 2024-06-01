@@ -1,16 +1,16 @@
 "use client";
-import { sendGTMEvent } from '@next/third-parties/google'
+import { sendGAEvent } from '@next/third-parties/google'
 import Image from "next/image";
 import { Button } from "../button";
 
 export const About = () => {
   const onDownloadCV = () => {
-    sendGTMEvent({ event: 'downloadCVButtonClicked', value: 'downloadCV' })
+    sendGAEvent({ event: 'downloadCVButtonClicked', value: 'downloadCV' })
     return window.open("/assets/pdf/jayeshp-cv.pdf");
   };
 
   const onSayHello = () => {
-    sendGTMEvent({ event: 'sayHelloButtonClicked', value: 'sayHello' })
+    sendGAEvent({ event: 'sayHelloButtonClicked', value: 'sayHello' })
     window.location.href = `mailto:jayesh.puthalathpoyil@gmail.com?subject=Hello! Jai&body=`;
   };
 
