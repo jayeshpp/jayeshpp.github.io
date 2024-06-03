@@ -1,6 +1,9 @@
 ## Portfolio Website
+https://jayeshpp.github.io/
 
-## Getting Started
+## Development
+
+### Getting Started
 
 First, run the development server:
 
@@ -16,12 +19,13 @@ bun dev
 
 
 TODO
-[] Skill page
-[] Experience page
-[] Blog
-[] Contact
-[] Dark mode
-[] GA
-[] Interactive experience
-[] Responsive
-[] Support theming
+
+- [] Skill page
+- [] Experience page
+- [] Blog
+- [] Contact
+- [] Dark mode
+- [] GA
+- [] Interactive experience
+- [] Responsive
+- [] Support theming
