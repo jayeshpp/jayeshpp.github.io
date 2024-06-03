@@ -5,12 +5,12 @@ import { Button } from "../button";
 
 export const About = () => {
   const onDownloadCV = () => {
-    sendGAEvent({ event: 'downloadCVButtonClicked', value: 'downloadCV' })
+    sendGAEvent({ event: 'buttonClicked', value: 'downloadCV' })
     return window.open("/assets/pdf/jayeshp-cv.pdf");
   };
 
   const onSayHello = () => {
-    sendGAEvent({ event: 'sayHelloButtonClicked', value: 'sayHello' })
+    sendGAEvent({ event: 'buttonClicked', value: 'sayHello' })
     window.location.href = `mailto:jayesh.puthalathpoyil@gmail.com?subject=Hello! Jai&body=`;
   };
 
