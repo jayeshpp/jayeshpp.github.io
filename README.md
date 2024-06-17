@@ -20,8 +20,8 @@ bun dev
 
 TODO
 
-- [] Skill page
-- [] Experience page
+- [X] Skill page
+- [X] Experience page
 - [] Blog
 - [] Contact
 - [] Dark mode

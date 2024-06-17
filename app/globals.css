@@ -3,17 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --max-c-w: 1440px;
+  --body-bg: #ffffff;
+  --body-color: #000000;
   --primary-1: #0096eb;
+  --max-c-w: 1440px;
+  --body-bg-dark: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --body-bg: #000000;
+    --body-color: #ffffff;
+    --body-bg-dark: #ffffff;
   }
 }
 
 body {
-  color: black;
+  color: var(--body-color);
+  background-color: var(--body-bg);
+  .screen-intro {
+    height: calc(100vh - 80px);
+  }
   .logo {
     font-size: 1.75rem;
     line-height: 2.8rem;
@@ -37,7 +47,7 @@ body {
       content: "";
       height: 2px;
       width: 50px;
-      background-color: black;
+      background-color: var(--body-bg-dark);
     }
   }
   @media (min-width: 768px) {
@@ -65,5 +75,41 @@ body {
   }
   .container {
     max-width: 1340px;
+  }
+  p {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+  }
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3.75rem;
+    }
+    h2 {
+      font-size: 3rem;
+    }
+    h3 {
+      font-size: 2.25rem;
+    }
+    h4 {
+      font-size: 1.75rem;
+    }
   }
 }
