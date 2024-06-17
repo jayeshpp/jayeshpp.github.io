@@ -25,6 +25,7 @@ export const Intro = () => {
           height={476}
           unoptimized
           className="m-auto"
+          loading='eager'
         />
       </div>
       <div className="flex-1">

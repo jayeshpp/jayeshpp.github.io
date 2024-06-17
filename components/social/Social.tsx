@@ -25,7 +25,7 @@ const social = [
 export const Social = () =>  (
   <div className="flex gap-4">
     {social.map(({ label, icon, src }) => (
-      <Link href={src} target="_blank" className="relative transition-all hover:scale-125">
+      <Link key={label} href={src} target="_blank" className="relative transition-all hover:scale-125">
         <img
           src={`/assets/icons/${icon}`}
           alt={label}
