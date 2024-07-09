@@ -32,7 +32,7 @@ export const Intro = () => {
         <h1 className="title-1 pb-4 md:pb-8">Jayesh</h1>
         <h2 className="title-2 pb-3 md:pb-5">Frontend Engineer</h2>
         <p className="text-base md:text-xl max-w-[530px] pb-5">
-          I am a frontend-heavy fullstack developer with a proven track record
+          A frontend-heavy fullstack developer with a proven track record
           of delivering pixel-perfect, high-quality, and scalable web
           applications.
         </p>

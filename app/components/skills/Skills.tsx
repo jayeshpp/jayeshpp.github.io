@@ -62,6 +62,18 @@ const skillSetMap = {
       ranking: 1,
       icon: "webpack.svg",
     },
+    {
+      title: "NodeJS",
+      level: 60,
+      ranking: 1,
+      icon: "nodejs.svg",
+    },
+    {
+      title: "MongoDB",
+      level: 60,
+      ranking: 1,
+      icon: "mongodb.svg",
+    },
   ],
 };
 
@@ -83,7 +95,7 @@ const IconBox: React.FC<IIconBoxProps> = ({ title, level, icon }) => (
 
 export const Skills = () => {
   return (
-    <section className="container h-[600px] px-6 md:px-20 gap-10 m-auto flex flex-col items-center justify-between md:flex-row-reverse">
+    <section className="container min-h-[600px] px-6 md:px-20 gap-10 m-auto flex flex-col items-center justify-between md:flex-row-reverse">
       <article className="flex-1">
         <h1 className="pb-4">
           My

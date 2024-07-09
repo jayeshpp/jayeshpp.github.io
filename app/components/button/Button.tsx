@@ -1,5 +1,5 @@
 import React, { ForwardedRef, ReactNode, forwardRef } from 'react';
-import { cls } from '../../utils';
+import { cls } from '../../../utils';
 
 interface IButton {
   /**
