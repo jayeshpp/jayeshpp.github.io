@@ -69,7 +69,7 @@ const ExperienceBlock = () => (
   <ul>
     {experience
       .filter((e) => e.show)
-      .map(({ company, title, tenure, logo, link }) => (
+      .map(({ company, title, tenure, logo, link }: any) => (
         <li className="flex items-start gap-4 mb-5">
           <Link href={link} target="_blank">
             <img
