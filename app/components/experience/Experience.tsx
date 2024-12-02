@@ -78,7 +78,7 @@ const ExperienceBlock = () => (
       .filter((e) => e.show)
       .map(({ company, title, tenure, logo, link }: any) => (
         <li className="flex items-start gap-4 mb-5">
-          <Link href={link} target="_blank">
+          <Link href={`${link}`} target="_blank">
             <img
               src={`/assets/images/${logo}`}
               alt={company}

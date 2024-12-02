@@ -120,6 +120,7 @@ export const Skills = () => {
               level={level}
               icon={icon}
               ranking={ranking}
+              key={title}
             />
           ))}
         </div>
