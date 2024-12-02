@@ -9,9 +9,16 @@ const experience = [
     show: false,
   },
   {
+    company: "ConductAI",
+    title: "Founding Engineer - Frontend",
+    tenure: "July 2024 - Present",
+    logo: "dummy_200x200.png",
+    show: true,
+  },
+  {
     company: "Amazon UK Ltd",
     title: "Web Development Engineer II",
-    tenure: "Nov 2023 - May 2024",
+    tenure: "Nov 2023 - July 2024",
     logo: "amazon_logo.jpeg",
     link: "https://www.amazon.co.uk/",
     show: true,
