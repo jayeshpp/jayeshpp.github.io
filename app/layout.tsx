@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={lct.className}>
-        <Header />
+        {/* <Header /> */}
         {children}
-        <GoogleAnalytics gaId="G-3YXZDY1RFH" />
+        {/* <GoogleAnalytics gaId="G-3YXZDY1RFH" /> */}
       </body>
     </html>
   );
