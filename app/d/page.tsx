@@ -96,7 +96,7 @@ export default function Page() {
 
       <video
         ref={videoRef}
-        src="/daphne-intro.mp4"
+        src="/daphne-intro.1.mp4"
         autoPlay
         loop
         muted={muted}

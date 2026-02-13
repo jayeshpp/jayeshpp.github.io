@@ -10,8 +10,7 @@ const lct = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "PJ Studio",
-  description: "Jayesh - Portfolio",
+  title: "Daphne Jay",
 };
 
 export default function RootLayout({
